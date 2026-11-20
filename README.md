@@ -90,7 +90,7 @@ Every detection run automatically renders a publication-grade diagnostic report:
 
 ### 1. Clone & Set Up
 ```bash
-git clone https://github.com/your-username/exohunter.git
+git clone https://github.com/kamesh6767/exohunter.git
 cd exohunter
 pip install -r requirements.txt
 ```
@@ -132,8 +132,6 @@ exohunter/
 ├── pyproject.toml              # Modern Python packaging specifications
 ├── requirements.txt            # Dependency manifest
 ├── README.md                   # Project documentation
-├── EXPLAINER_FOR_YOU.md        # Technical interview & concept study guide
-├── LINKEDIN_POST.md            # Ready-to-publish LinkedIn post & media guide
 │
 ├── data/                       # Built-in benchmark datasets
 │   ├── kepler-10b.csv
@@ -161,8 +159,3 @@ exohunter/
 1. **Kovács, G., Zucker, S., & Mazeh, T. (2002).** *A box-fitting algorithm in the search for periodic transits.* Astronomy & Astrophysics, 391(1), 369-377.
 2. **Mandel, K., & Agol, E. (2002).** *Analytic Light Curves for Planetary Transit Searches.* The Astrophysical Journal, 580(2), L171.
 3. **NASA Exoplanet Archive:** Caltech/IPAC Infrared Processing and Analysis Center.
-
----
-
-## 📄 License
-This project is licensed under the [MIT License](LICENSE).

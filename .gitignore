@@ -31,6 +31,17 @@ env/
 venv/
 ENV/
 
+# Secrets & local config
+*.env
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Personal prep notes & LinkedIn drafts
+EXPLAINER_FOR_YOU.md
+LINKEDIN_POST.md
+
 # Testing & cache
 .pytest_cache/
 .coverage
